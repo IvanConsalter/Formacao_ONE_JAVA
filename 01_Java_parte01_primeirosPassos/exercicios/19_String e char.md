@@ -2,7 +2,7 @@ Rômulo é um grande entusiasta da linguagem Java e está sempre disposto a apre
 
 Resposta:
 
-String frase = "Estou sempre disposto a aprender novas tecnologias";
-char letra = 'a';
+String frase = "Estou sempre disposto a aprender novas tecnologias";<br>
+char letra = 'a';<br>
 
 Lembre-se, uma String é declarada com aspas duplas " e pode ter zero ou mais caracteres. Um char é declarado com aspas simples ' e pode usar apenas um caractere!
