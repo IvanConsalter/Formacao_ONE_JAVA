@@ -15,6 +15,7 @@ public class TesteSalario {
         System.out.println(salario);
     }
 }
+
 Qual será o resultado da compilação/execução?
 
 Resposta:

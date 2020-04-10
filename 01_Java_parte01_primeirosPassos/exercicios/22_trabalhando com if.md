@@ -18,9 +18,9 @@ public class TesteIR {
 
 Porém o programa tem um comportamento estranho. Ao compilar e rodar, é impresso:
 
-Você pode deduzir até R$ 350
-A sua aliquota é de 22,5%
-Você pode deduzir até R$ 636
+Você pode deduzir até R$ 350<br>
+A sua aliquota é de 22,5%<br>
+Você pode deduzir até R$ 636<br><br>
 Repare que o programa indica que podemos deduzir R$350 E R$636! Como corrigir o problema?
 
 Resposta:
