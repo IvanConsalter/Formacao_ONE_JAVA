@@ -13,6 +13,7 @@ public class Programa {
         }
     }
 }
+
 Se você estivesse com Clarice agora, como explicaria o problema do código para ele? Depois de pensar em uma explicação, compare-a com a do instrutor a seguir.
 
 Resposta:

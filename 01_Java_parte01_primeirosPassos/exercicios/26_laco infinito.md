@@ -14,6 +14,7 @@ public class Programa {
         }
     }
 }
+
 Todavia, seu programa só imprime no console 1 infinitamente.
 
 Consegue enxergar o problema no código de Fernando? Depois de formar uma opinião compare seu achado com a resposta do instrutor logo em seguida.

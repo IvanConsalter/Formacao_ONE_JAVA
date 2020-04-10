@@ -3,13 +3,18 @@ Dessa vez, Clarice resolveu desafiar Fernando a transformar o código a seguir q
 package projeto;
 
 public class Programa {
+
     public static void main(String[] args) {
+
         int contador = 0;
+
         while(contador <= 10) {
             System.out.println(contador);
             contador++;
         }
+
     }
+
 }
 
 Resposta:
@@ -19,9 +24,13 @@ Como visto na aula, o for oferece uma opção de declaração mais enxuta, onde 
 package projeto;
 
 public class Programa {
+
     public static void main(String[] args) {
+
         for(int contador = 0; contador <= 10; contador++) {
             System.out.println(contador);
         }
+
     }
+
 }
