@@ -5,8 +5,11 @@ Verificando cada instrução abaixo diga qual das opções está errada.
 Resposta:
 
 int brindes = 15;
+
 int pessoas = 2;
+
 System.out.println(brindes / pessoas);
+
 A ideia seria imprimir 7.5
 
 
