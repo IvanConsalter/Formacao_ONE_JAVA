@@ -4,9 +4,9 @@ public class Jogador {<br>
     //Código omitido<br>
     private int total = 0;<br>
 
-    public Jogador(//atributos){<br>
-       total++;<br>
-    }<br>
+    public Jogador(//atributos){
+       total++;
+    }
 }
 
 
