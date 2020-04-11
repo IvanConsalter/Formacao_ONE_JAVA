@@ -2,8 +2,8 @@ Paulo está criando getters e setters para seguinte classe:
 
 public class Aluno {
 
-    private String nome;<br>
-    private String matricula;<br>
+    private String nome;
+    private String matricula;
 
 }
 

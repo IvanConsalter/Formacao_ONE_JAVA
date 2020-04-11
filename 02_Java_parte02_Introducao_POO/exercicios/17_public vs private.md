@@ -2,9 +2,9 @@ Luan resolveu criar um modelo para treinar orientação a objeto e encapsulament
 
 public class Cliente {
 
-    String nome;<br>
-    private String cpf;<br>
-    int idade;<br>
+    String nome;
+    private String cpf;
+    int idade;
 
 }
 

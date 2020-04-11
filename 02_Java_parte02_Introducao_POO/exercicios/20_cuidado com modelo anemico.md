@@ -8,21 +8,21 @@ class Conta{<br>
     private String titular;<br>
     private double saldo;<br><br>
 
-    public void setTitular(String titular){<br>
-        this.titular = titular;<br>
-    }<br>
+    public void setTitular(String titular){
+        this.titular = titular;
+    }
 
-    public String getTitular(){<br>
-        return titular;<br>
-    }<br>
+    public String getTitular(){
+        return titular;
+    }
 
-    public void setSaldo(double saldo){<br>
-        this.saldo = saldo;<br>
-    }<br>
+    public void setSaldo(double saldo){
+        this.saldo = saldo;
+    }
 
-    public double getSaldo(){<br>
-        return saldo;<br>
-    }<br>
+    public double getSaldo(){
+        return saldo;
+    }
 
 }
 
@@ -72,29 +72,29 @@ class Conta{<br>
     private String titular;<br>
     private double saldo;<br>
 
-    public void setTitular(String titular){<br>
-        this.titular = titular;<br>
-    }<br>
+    public void setTitular(String titular){
+        this.titular = titular;
+    }
 
-    public String getTitular(){<br>
-        return titular;<br>
-    }<br>
+    public String getTitular(){
+        return titular;
+    }
 
-    public void saca(double valor){<br>
-        if(valor > 0 && saldo >= valor){<br>
-            saldo -= valor;<br>
-        }<br>
-    }<br>
+    public void saca(double valor){
+        if(valor > 0 && saldo >= valor){
+            saldo -= valor;
+        }
+    }
 
-    public void deposita(double valor){<br>
-        if(valor>0){<br>
-            saldo += valor;<br>
-        }<br>
-    }<br>
+    public void deposita(double valor){
+        if(valor>0){
+            saldo += valor;
+        }
+    }
 
-    public double getSaldo(){<br>
-        return saldo;<br>
-    }<br>
+    public double getSaldo(){
+        return saldo;
+    }
 
 }
 
