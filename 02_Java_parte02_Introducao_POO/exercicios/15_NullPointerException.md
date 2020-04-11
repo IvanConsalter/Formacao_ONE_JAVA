@@ -2,20 +2,21 @@ Fernanda decidiu aplicar seu conhecimento sobre composição utilizando as class
 
 public class Pessoa {
 
-    String nome;<br>
-    String cpf;<br>
-    int idade;<br>
-    Endereco endereco;<br>
+    String nome;
+    String cpf
+    int idade;
+    Endereco endereco;
+
 }
 
 public class Endereco {
 
-    String logradouro;<br>
-    String complemento;<br>
-    String numero;<br>
-    String bairro;<br>
-    String cidade;<br>
-    String cep;<br>
+    String logradouro;
+    String complemento;
+    String numero;
+    String bairro;
+    String cidade;
+    String cep;
 
 }
 

@@ -2,28 +2,29 @@ Juarez criou as seguintes classes:
 
 public class Pessoa {
 
-    String nome;<br>
-    String cpf;<br>
-    int idade;<br>
-    String logradouro;<br>
-    String complemento;<br>
-    String numero;<br>
-    String bairro;<br>
-    String cidade;<br>
-    String cep;<br>
+    String nome;
+    String cpf;
+    int idade;
+    String logradouro;
+    String complemento;
+    String numero;
+    String bairro;
+    String cidade;
+    String cep;
 
 }
 
 public class Empresa {
 
-    String razaoSocial;<br>
-    String cnpjs;<br>
-    String logradouro;<br>
-    String complemento;<br>
-    String numero;<br>
-    String bairro;<br>
-    String cidade;<br>
-    String cep;<br>
+    String razaoSocial;
+    String cnpjs;
+    String logradouro;
+    String complemento;
+    String numero;
+    String bairro;
+    String cidade;
+    String cep;
+
 }
 
 
@@ -31,13 +32,13 @@ Podemos perceber que os atributos logradouro, complemento, numero, bairro, cidad
 
 public class Endereco {
 
-    String logradouro;<br>
-    String complemento;<br>
-    String numero;<br>
-    String bairro;<br>
-    String cidade;<br>
+    String logradouro;
+    String complemento;
+    String numero;
+    String bairro;
+    String cidade;
     String cep;
-<br>
+
 }
 
 
@@ -45,15 +46,17 @@ Marque a única alternativa verdadeira que modifica corretamente as classes Pess
 
 public class Pessoa {
 
-    String nome;<br>
-    String cpf;<br>
-    int idade;<br>
-    Endereco endereco;<br>
+    String nome;
+    String cpf;
+    int idade;
+    Endereco endereco;
+
 }
-<br>
+
 public class Empresa {
 
-    String razaoSocial;<br>
-    String cnpjs;<br>
-    Endereco endereco;<br>
+    String razaoSocial;
+    String cnpjs;
+    Endereco endereco;
+
 }

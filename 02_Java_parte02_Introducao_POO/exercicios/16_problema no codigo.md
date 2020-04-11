@@ -2,20 +2,20 @@ A classe Pessoa e Endereco de Juarez fez sucesso:
 
 public class Endereco {
 
-    String logradouro;<br>
-    String complemento;<br>
-    String numero;<br>
-    String bairro;<br>
-    String cidade;<br>
-    String cep;<br>
+    String logradouro;
+    String complemento;
+    String numero;
+    String bairro;
+    String cidade;
+    String cep;
 }
 
 public class Pessoa {
 
-    String nome;<br>
-    String cpf;<br>
-    int idade;<br>
-    Endereco endereco;<br>
+    String nome;
+    String cpf;
+    int idade;
+    Endereco endereco;
 
 }
 
@@ -38,10 +38,10 @@ Respostas:
 
 1- public class Pessoa {
 
-    String nome;<br>
-    String cpf;<br>
-    int idade;<br>
-    Endereco endereco = new Endereco();<br>
+    String nome;
+    String cpf;
+    int idade;
+    Endereco endereco = new Endereco();
 
 }
 
