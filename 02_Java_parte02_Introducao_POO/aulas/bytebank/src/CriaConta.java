@@ -4,6 +4,8 @@ public class CriaConta {
 	public static void main(String[] args) {
 		
 		Conta primeiraConta = new Conta();
+		Conta primeiraConta1 = new Conta(111, 222);
+		
 		//parou de compilar, tem que usar metodo getters e setters
 //		primeiraConta.saldo = 200;
 //		System.out.println(primeiraConta.saldo);
@@ -16,6 +18,7 @@ public class CriaConta {
 //		
 //		System.out.println("primeira conta tem: " + primeiraConta.saldo);
 //		System.out.println("segundao conta tem: " + segundaConta.saldo);
+	
 		
 		System.out.println();
 		
