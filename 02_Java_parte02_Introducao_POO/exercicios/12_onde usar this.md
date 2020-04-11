@@ -4,12 +4,13 @@ Ela nos enviou o código abaixo usando os caracteres [] em vários lugares, segu
 
 class Conta {<br>
 
-        [1] double saldo;<br>
-        int numero;<br>
+        [1] double saldo;
+        int numero;
 
-        void deposita([2] double valor) {<br>
-            [3]saldo = [4]saldo + [5]valor;<br>
-        }<br>
+        void deposita([2] double valor) {
+            [3]saldo = [4]saldo + [5]valor;
+        }
+
 }
 
 
@@ -24,10 +25,11 @@ Usamos o this dentro de um método para acessar um atributo:
 
 class Conta {<br>
 
-        double saldo;<br>
-        int numero;<br>
+        double saldo;
+        int numero;
 
-        void deposita(double valor) {<br>
-            this.saldo = this.saldo + valor;<br>
-        }<br>
+        void deposita(double valor) {
+            this.saldo = this.saldo + valor;
+        }
+
 }
