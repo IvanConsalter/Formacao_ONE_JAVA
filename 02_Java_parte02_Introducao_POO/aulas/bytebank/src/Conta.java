@@ -3,7 +3,7 @@ public class Conta {
 
 	public int agencia;
 	public int numero;
-	public String titular;
+	public Cliente titular;
 	public double saldo;
 	
 	public void deposita(double valor) {
