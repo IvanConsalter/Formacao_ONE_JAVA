@@ -1,5 +1,5 @@
 
-public class Fluxo {
+public class FluxoComTratamento {
 	
 	public static void main(String[] args) {
 		
@@ -26,11 +26,12 @@ public class Fluxo {
 	private static void metodo2() {
 		
 		System.out.println("Inicio do metodo2");
-		ArithmeticException exception = new ArithmeticException("Deu erro");
-		throw exception;
-		//outro metodo
-//		throw new ArithmeticException("Deu erro");
-		//System.out.println("Fim do metodo2");
+		for(int i = 1; i <= 5; i++) {
+            System.out.println(i);
+            Conta c = null;
+            c.deposita();
+		} 
+		System.out.println("Fim do metodo2");
 	}
 
 }
