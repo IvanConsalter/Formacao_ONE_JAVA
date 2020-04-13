@@ -1,7 +1,7 @@
 
 public class Fluxo {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws MinhaExcecao {
 		
 		System.out.println("Inicio do main");
 		try {
@@ -15,7 +15,7 @@ public class Fluxo {
 		
 	}
 	
-	private static void metodo1() {
+	private static void metodo1() throws MinhaExcecao{
 		
 		System.out.println("Inicio do metodo1");
 		metodo2();
@@ -23,10 +23,10 @@ public class Fluxo {
 		
 	}
 	
-	private static void metodo2() {
+	private static void metodo2() throws MinhaExcecao{
 		
 		System.out.println("Inicio do metodo2");
-		ArithmeticException exception = new ArithmeticException("Deu erro");
+		MinhaExcecao exception = new MinhaExcecao("Deu muito errado");
 		throw exception;
 		//outro metodo
 //		throw new ArithmeticException("Deu erro");
