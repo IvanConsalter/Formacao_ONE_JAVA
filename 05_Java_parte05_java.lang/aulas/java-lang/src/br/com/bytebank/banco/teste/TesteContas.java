@@ -23,6 +23,15 @@ public class TesteContas {
 		System.out.println("------------------");
 		System.out.println("CC: " + cc.getSaldo());
 		
+//		//Teste toString antes classe filha
+//		System.out.println("---------Teste toString---------");
+//		System.out.println(cc);
+//		System.out.println(cp);
+		
+		//Teste toString classe filha
+		System.out.println("---------Teste toString---------");
+		System.out.println(cc);
+		System.out.println(cp);
 		
 	}
 
