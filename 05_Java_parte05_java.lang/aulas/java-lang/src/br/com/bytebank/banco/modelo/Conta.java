@@ -12,6 +12,13 @@ public abstract class Conta {
 		System.out.println("Criando uma Conta");
 	}
 	
+	/**
+	 * Construtor para inicializar o objeto Conta
+	 * a partir da agencia e numero
+	 * @param agencia
+	 * @param numero
+	 */
+	
 	public Conta(int agencia, int numero) {
 		Conta.total++;
 		System.out.println("O total de Contas é: " + Conta.total);
@@ -22,6 +29,11 @@ public abstract class Conta {
 	
 	public abstract void deposita(double valor);
 	
+	/**
+	 * Valor precisa ser menor ou igual ao saldo
+	 * @param valor
+	 * @return
+	 */
 	public boolean saca(double valor) {
 		
 		if(this.saldo >= valor) {
