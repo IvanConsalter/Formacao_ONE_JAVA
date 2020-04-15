@@ -9,7 +9,7 @@ public abstract class Conta {
 	private static int total = 0;
 	
 	public Conta() {
-		System.out.println("Criando uma Conta");
+		//System.out.println("Criando uma Conta");
 	}
 	
 	/**
@@ -20,11 +20,11 @@ public abstract class Conta {
 	 */
 	
 	public Conta(int agencia, int numero) {
-		Conta.total++;
-		System.out.println("O total de Contas é: " + Conta.total);
+//		Conta.total++;
+//		System.out.println("O total de Contas é: " + Conta.total);
 		this.agencia = agencia;
 		this.numero = numero;
-		System.out.println("Estou criando uma Conta");
+//		System.out.println("Estou criando uma Conta");
 	}
 	
 	public abstract void deposita(double valor);
