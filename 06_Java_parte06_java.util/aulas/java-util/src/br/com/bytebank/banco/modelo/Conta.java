@@ -1,6 +1,6 @@
 package br.com.bytebank.banco.modelo;
 
-public abstract class Conta {
+public abstract class Conta implements Comparable<Conta>{
 
 	private int agencia;
 	private int numero;
@@ -90,7 +90,7 @@ public abstract class Conta {
 	
 	@Override
 	public String toString() {
-		return "Numero: " + this.numero
+		return 	  "Numero: " + this.numero
 				+ ", Agencia " + this.agencia;
 	}
 	/*
@@ -120,6 +120,9 @@ public abstract class Conta {
 		}
 		return true;
 	}
+	
+	
+	
 
 	
 	

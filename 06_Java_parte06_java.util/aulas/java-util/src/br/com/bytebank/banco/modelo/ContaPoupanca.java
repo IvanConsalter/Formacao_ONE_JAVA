@@ -14,6 +14,11 @@ public class ContaPoupanca extends Conta{
 	
 	@Override
 	public String toString() {
-		return "Conta-Poupança: " + super.toString();
+		return "Tipo: Conta-Poupança-> " + super.toString();
+	}
+
+	@Override
+	public int compareTo(Conta cp) {
+		return Double.compare(this.saldo, cp.saldo);
 	}
 }
