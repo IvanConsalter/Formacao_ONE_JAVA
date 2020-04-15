@@ -93,5 +93,34 @@ public abstract class Conta {
 		return "Numero: " + this.numero
 				+ ", Agencia " + this.agencia;
 	}
+	/*
+	public boolean eIgual(Conta outraConta) {
+		
+		if(this.agencia != outraConta.agencia) {
+			return false;
+		}
+		
+		if(this.numero != outraConta.numero) {
+			return false;
+		}
+		return true;
+	}
+	*/
+	@Override
+	public boolean equals(Object ref) {
+		
+		Conta outraConta = (Conta) ref;
+		
+		if(this.agencia != outraConta.agencia) {
+			return false;
+		}
+		
+		if(this.numero != outraConta.numero) {
+			return false;
+		}
+		return true;
+	}
+
+	
 	
 }
