@@ -7,7 +7,7 @@ public class TesteEscritaPrintWriter {
 
 	public static void main(String[] args) throws IOException {
 		
-		PrintWriter pw = new PrintWriter("lorem6.txt");
+		PrintWriter pw = new PrintWriter("lorem6.txt", "UTF-8");
 
         pw.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
         

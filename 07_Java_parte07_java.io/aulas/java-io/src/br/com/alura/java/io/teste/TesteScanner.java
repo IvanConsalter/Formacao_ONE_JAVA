@@ -8,7 +8,7 @@ public class TesteScanner {
 	
 	public static void main(String[] args) throws Exception {
 		
-		Scanner scanner = new Scanner(new File("contas.csv"));
+		Scanner scanner = new Scanner(new File("contas.csv"), "UTF-8");
 		Scanner linhaScanner;
 		
 		while(scanner.hasNextLine()) {
