@@ -8,6 +8,7 @@ public class Curso {
 
 	private String curso;
 	private String instrutor;
+	//private int tempoTotal;
 	private List<Aula> aulas = new LinkedList<Aula>();
 	
 	public Curso(String curso, String instrutor) {
@@ -23,12 +24,28 @@ public class Curso {
 		return instrutor;
 	}
 	
+	public int getTempoTotal() {
+		//return tempoTotal;
+		//tempoTotal co stream
+		return this.aulas.stream().mapToInt(Aula::getTempo).sum();
+	}
+	
 	public List<Aula> getAulas() {
 		return Collections.unmodifiableList(aulas);
 	}
 	
 	public void adiciona(Aula aula) {
 		this.aulas.add(aula);
+		//this.tempoTotal += aula.getTempo();
+	}
+
+	@Override
+	public String toString() {
+		return "[Curso: " + this.curso
+				+ ", tempo total: "
+				+ this.getTempoTotal() + "min"
+				+ ", aulas: "
+				+ this.getAulas() + "]";
 	}
 	
 }

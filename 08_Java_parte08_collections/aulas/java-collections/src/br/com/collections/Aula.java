@@ -4,8 +4,7 @@ public class Aula implements Comparable<Aula>{
 	
 	private String titulo;
 	private int tempo;
-	
-	
+		
 	public Aula(String nome, int tempo) {
 		this.titulo = nome;
 		this.tempo = tempo;
@@ -18,7 +17,8 @@ public class Aula implements Comparable<Aula>{
 	public int getTempo() {
 		return tempo;
 	}
-
+	
+	
 	@Override
 	public String toString() {
 		return "Aula: " + this.titulo + ", tempo: " + this.tempo + " min.";
