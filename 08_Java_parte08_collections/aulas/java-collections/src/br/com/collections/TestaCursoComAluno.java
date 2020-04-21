@@ -32,13 +32,20 @@ public class TestaCursoComAluno {
 		alunos.add(novoAluno);
 		System.out.println(novoAluno);
 		*/
-		
+		/*
 		Set<Aluno> alunosSincronizados = Collections.synchronizedSet(java.getAlunos());
 		System.out.println(alunosSincronizados);
+		*/
 		
+		Aluno novoAluno = new Aluno("Carlos Roberto", 654321);
+		java.matricula(novoAluno);
+		
+		System.out.println(java.estaMatriculado(novoAluno));
+		
+		Aluno nomeInvalido = new Aluno("Ab", 123789);
+		System.out.println(nomeInvalido);
 	}
 
 	
-	
-	
+
 }
