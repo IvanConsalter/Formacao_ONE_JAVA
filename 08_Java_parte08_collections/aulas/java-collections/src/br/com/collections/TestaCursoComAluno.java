@@ -1,8 +1,5 @@
 package br.com.collections;
 
-import java.util.Collections;
-import java.util.Set;
-
 public class TestaCursoComAluno {
 	
 	public static void main(String[] args) {
