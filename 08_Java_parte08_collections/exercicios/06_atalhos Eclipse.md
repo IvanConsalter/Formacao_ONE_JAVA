@@ -12,14 +12,14 @@ Sendo assim, utilize esse recurso para implementar os métodos equals e hashCode
 
 A implementação deve ficar parecida com essa:
 
-@Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((nome == null) ? 0 : nome.hashCode());
-        result = prime * result + numeroMatricula;
-        return result;
-    }
+@Override<br>
+    public int hashCode() {<br>
+        final int prime = 31;<br>
+        int result = 1;<br>
+        result = prime * result + ((nome == null) ? 0 : nome.hashCode());<br>
+        result = prime * result + numeroMatricula;<br>
+        return result;<br>
+    }<br>
 
     @Override
     public boolean equals(Object obj) {
